@@ -6764,3 +6764,22 @@ height: 150px; ;
     object-fit: cover;
   }
 }
+
+.team-display {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .dsn-team {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .team-item {
+    flex: 0 0 auto;
+  }
+  .team-display {
+    display: none;
+  }
+}
