@@ -6768,7 +6768,9 @@ height: 150px; ;
 .team-display {
   display: block;
 }
-
+.creativity-color {
+  color: gray !important;
+}
 @media (max-width: 767px) {
   .dsn-team {
     display: flex;
